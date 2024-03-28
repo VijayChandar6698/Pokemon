@@ -1,0 +1,53 @@
+/* styles.css */
+
+/* Reset default margin and padding for the entire page */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color or image for the body */
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* Style the header (h1) with Pokémon colors */
+h1 {
+    font-size: 2.5rem;
+    color: #ff0000; /* Pokémon Red */
+    margin: 20px 0;
+}
+
+/* Style the Pokémon image */
+img#pokemonImage {
+    max-width: 800px; /* Increase this value to make the image larger */
+    margin: 10px auto;
+    border: 5px solid #000; /* Add a black border around the image */
+    border-radius: 10px; /* Round the corners of the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+
+/* Style the Pokémon name */
+p#pokemonName {
+    font-size: 1.2rem;
+    color: #333; /* Dark gray text color */
+    margin-bottom: 20px;
+}
+
+/* Style the button */
+button {
+    background-color: #ffcc00; /* Pokémon Yellow */
+    color: #333; /* Dark gray text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff9900; /* Slightly darker yellow on hover */
+}
